@@ -1,0 +1,53 @@
+
+html { 
+	position : center;
+  margin:0;
+  padding:0;
+  background: url("https://assets.nerdwallet.com/blog/wp-content/uploads/2015/08/rental-car-sign.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+body {
+	margin-left: 500px
+	position : center ;
+	font-family: arial, verdana, sans-serif;
+
+}
+button {    
+	margin-left: 500px;
+    border: simple;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    background: linear-gradient( 
+  #ccc6c3 0%,
+  #828c95 24%,
+  #000000 41%,
+  #7f7f7f 100%);
+
+}
+h1{ 
+	
+
+	color : white;
+	text-shadow: 
+        1px 1px 1px #CFB565,
+        1px 2px 1px #CFB566,
+        1px 3px 1px #CFB567,
+        1px 4px 1px #CFB569,
+        1px 5px 1px #CFB570,
+        1px 6px 1px #CFB571,
+        1px 7px 1px #CFB572;
+        margin-left : 550px;
+}
+div{
+	font-family: arial, verdana, sans-serif;
+	color: white;
+	margin-left : 200px
+}
+
+

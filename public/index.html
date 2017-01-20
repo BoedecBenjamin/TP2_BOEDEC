@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS/HTML Workshop with Drivy</title>
+
+   <link rel="stylesheet" href="C:/Users/Ben10/Desktop/ESILV/S8/Web_app/TD2/suit-up-drivy/public/style.css"/> 
+    
+  </head>
+  <body>
+<h1 style="font-size: 50px"> Hello </h1>
+    <div id="car" >
+      <input class="model" type="text" placeholder="Car model" style ="background-color: ##00BFFF border:2px solid #456879;
+  border-radius:10px;>
+  height: 22px;
+  width: 230px; "/>
+      <input class="price-by-day" type="number" placeholder="Price by day" style ="background-color: ##00BFFF border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px;"/>
+      <input class="price-by-km" type="number" placeholder="Price by km" style ="background-color: ##00BFFF border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px;"/>
+    </div>
+    <div id="rental">
+      <input class="begin" type="date" placeholder="Rental begin date" style ="background:blue border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px; "/>
+      <input class="end" type="date" placeholder="Rental end date" style ="background:blue border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px; "/>
+      <input class="distance" type="number" placeholder="Distance in km" style ="background:blue border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px; "/>
+      <input class="option" type="checkbox" placeholder="Deductible option" style="background:red border:2px solid #456879;
+  border-radius:10px;
+  height: 22px;
+  width: 230px;;"/>
+    </div>
+
+    <button id="compute">Compute</button>
+    <div id="actors"></div>
+  
+    <script id="template" type="x-tmpl-mustache" style= "margin-left : 500px" >
+      {{#actors}}
+        <div class="actor">
+          <span>{{who}}</span>
+          <span>{{type}}</span>
+          <span>{{amount}}</span>
+        </div>
+      {{/actors}}
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+    <script src="drivy.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
